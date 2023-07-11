@@ -1,1 +1,7 @@
->! spoiler teszt
+<details>
+  <summary>Example</summary>
+
+  ```
+  long console output here
+  ```
+</details>
