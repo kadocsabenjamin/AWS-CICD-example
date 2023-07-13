@@ -118,6 +118,8 @@ Hooks:
   <summary>Megoldás</summary>
 
   ```
-  long console output here
+
+  Én manuálisan felmásolnám ctrl c + ctrl v módszerrel
+
   ```
 </details>
