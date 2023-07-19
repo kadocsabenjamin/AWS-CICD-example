@@ -64,7 +64,30 @@ https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_execution_IAM_r
   <summary>Megoldás</summary>
 
   ```
-  long console output here
+  {
+    "executionRoleArn": "arn:aws:iam::account_ID:role/ecsTaskExecutionRole",
+    "containerDefinitions": [
+        {
+            "name": "sample-website",
+            "image": "<IMAGE1_NAME>",
+            "essential": true,
+            "portMappings": [
+                {
+                    "hostPort": 80,
+                    "protocol": "tcp",
+                    "containerPort": 80
+                }
+            ]
+        }
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "networkMode": "awsvpc",
+    "cpu": "256",
+    "memory": "512",
+    "family": "ecs-demo"
+}
   ```
 </details>
 ## 4. 
