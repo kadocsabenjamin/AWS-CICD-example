@@ -46,7 +46,7 @@
 </details>
 
 ## 4
-### Futtasd az aws ecr get-login-password parancsot a helyes régió és vpc id-vel
+### Futtasd az aws ecr get-login-password parancsot a helyes régió és account id-vel
 
 <details>
   <summary>Megoldás</summary>
